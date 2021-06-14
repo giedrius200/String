@@ -14,8 +14,14 @@ using namespace std;
 class Duomenys {
 public:
     vector<string>zodziai;
-    std::map<std::string, int> countMap;
+    map<string,int>eile;
+    //std::map<int, std::pair<string, int> >eile;
+    std::map<std::string,int> countMap;
+    //std::map<int,pair<std::string,int>> countMap;
+    std::map<std::string, int> eilMap;
     int kiek;
+    vector<string>eilute;
+    std::map<string,int> mapeilute;
 };
 
 #endif 
